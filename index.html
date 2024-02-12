@@ -37,7 +37,7 @@
                     <img src="img/profile-pic.JPG" alt="profile pic">
                 </div>
                 <div class="home-content">
-                    <h5>Hello I'm a <span>Full Stack Developer</span></h5>
+                    <h5>Hello I'm <span class="input">Full Stack Developer</span></h5>
                     <h1>Viraji Sesiri</h1>
                     <p>I'm a Full-Stack developer dedicated to crafting<br>
                         innovative and practical software solutions.With<br>
@@ -61,6 +61,33 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+        var toggleBtn = document.querySelector(".New");
+        var nav = document.querySelector(".nav");
+        var links = document.querySelector(".nav li");
+
+        toggleBtn.addEventListener("click",function(){
+            console.log("clicked");
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+            console.log("Navo");
+
+            if (nav.classList.contains("open")) {
+                nav.style.display = "block";
+            } else {
+                nav.style.display = "none";
+    }
+        } )
+
+        var typed = new Typed(".input", {
+                strings: ["Full Stack Developer", "Backend Developer", "Frontend Developer"],
+                typeSpeed: 100,
+                backSpeed:100,
+                backDelay:1000,
+                loop:true
+        })
+    </script>
 </body>
 
 </html>
