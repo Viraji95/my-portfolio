@@ -117,8 +117,8 @@ nav .nav li a:hover {
     width: 100%;
     border-radius: 50%;
     transform: scale(0.8);
-    background: linear-gradient(45deg, #00f, #f08);
-    box-shadow: 0 0 100px rgba(77, 195, 238, 0.5), 0 0 10px rgba(248, 31, 147, 0.8);
+    background: linear-gradient(45deg, cyan, #f08);
+    box-shadow: 0 0 100px rgba(96, 191, 225, 0.5), 0 0 10px rgba(248, 31, 147, 0.8);
 
 
 
@@ -392,6 +392,45 @@ section {
 .about-container {
     margin-top: 0;
 }
+
+#experience {
+    position: relative;
+}
+
+.experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.article-container{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+
+}
+
+article .icon {
+    cursor: pointer;
+}
+
 
 
 @media(max-width:930px){
