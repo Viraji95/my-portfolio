@@ -10,64 +10,104 @@
 </head>
 
 <body>
-
-    <div class="header-1">
-        <div class="head">
-            <header>
-                <div class="logo">
-                    <div class="logo-text">Viraji Sesiri</div>
-                </div>
-                <nav>
-                    <div class="New">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+    <section>
+        <div class="header-1">
+            <div class="head">
+                <header>
+                    <div class="logo">
+                        <div class="logo-text">Viraji Sesiri</div>
                     </div>
-                    <ul class="nav">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <div class="container">
-                <div class="hero-pic">
-                    <img src="img/profile-pic.JPG" alt="profile pic">
-                </div>
-                <div class="home-content">
-                    <h5>Hello I'm <span class="input">Full Stack Developer</span></h5>
-                    <h1>Viraji Sesiri</h1>
-                    <p>I'm a Full-Stack developer dedicated to crafting<br>
-                        innovative and practical software solutions.With<br>
-                        a strong foundation in both front-end and back-end<br>technologies, I strive to bring creativity
-                        and<br> functionality together in every project I undertake.</p>
-
-
-                    <div class="home-sci">
-                        <a href="#"><i class="fa-brands fa-github"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-
-                        <div class="btn-group">
-                            <a href="#" class="btn-box">Download CV</a>
+                    <nav>
+                        <div class="New">
+                            <span></span>
+                            <span></span>
+                            <span></span>
                         </div>
+                        <ul class="nav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Skills</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <div class="container">
+                    <div class="hero-pic">
+                        <img src="img/profile-pic.JPG" alt="profile pic">
+                    </div>
+                    <div class="home-content">
+                        <h5>Hello I'm <span class="input">Full Stack Developer</span></h5>
+                        <h1>Viraji Sesiri</h1>
+                        <p>I'm a Full-Stack developer dedicated to crafting<br>
+                            innovative and practical software solutions.With<br>
+                            a strong foundation in both front-end and back-end<br>technologies, I strive to bring
+                            creativity
+                            and<br> functionality together in every project I undertake.</p>
 
+
+                        <div class="home-sci">
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+                            <div class="btn-group">
+                                <a href="#" class="btn-box">Download CV</a>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section id="about">
+        <p class="section-p1">Get to Know More</p>
+        <h1 class="sub-title">About <span>Me</span></h1>
+        <div class="section-container">
+            <div class="section-pic-container">
+                <img src="img/profile-pic.jpg" alt="profile picture" class="about-pic">
+
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <div class="icon">Experience</div>
+                        <h3>Experieence</h3>
+                        <p>Trainee <br>Software Engineer</p>
+                        <div>
+                            <div class="details-container">
+                                <div class="icon">Education</div>
+                                <p>BSc(Hons) in Electrical and Electronics Engineering</p>
+                            </div>
+                        </div>
+                        <div class="about-text">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam eum in ipsam excepturi libero delectus, fuga minus accusantium incidunt debitis consectetur non velit iusto expedita, maxime nisi voluptas voluptatum corrupti.</p>
+                        </div>
+                        <br>
+                        <br>
+
+                        <a href="#" class="btn-box">More About Me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="icon arrow"
+            onclick="location.href='./#experience'">Arrow
+
+            </div>
+        </div>
+    </section>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
     <script>
         var toggleBtn = document.querySelector(".New");
         var nav = document.querySelector(".nav");
         var links = document.querySelector(".nav li");
 
-        toggleBtn.addEventListener("click",function(){
+        toggleBtn.addEventListener("click", function () {
             console.log("clicked");
             this.classList.toggle("click");
             nav.classList.toggle("open");
@@ -77,15 +117,15 @@
                 nav.style.display = "block";
             } else {
                 nav.style.display = "none";
-    }
-        } )
+            }
+        })
 
         var typed = new Typed(".input", {
-                strings: ["Full Stack Developer", "Backend Developer", "Frontend Developer"],
-                typeSpeed: 100,
-                backSpeed:100,
-                backDelay:1000,
-                loop:true
+            strings: ["Full Stack Developer", "Backend Developer", "Frontend Developer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
         })
     </script>
 </body>
