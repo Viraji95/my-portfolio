@@ -248,6 +248,103 @@ section {
 
 }
 
+.section_text {
+    align-self: center;
+    text-align: center;
+}
+
+.section_text p {
+    font-size: 600;
+}
+
+.section-p1 {
+    text-align: center;
+    color: #fff;
+
+}
+
+.section_text_p2 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+    background-color: cyan;
+}
+
+#about {
+    position: relative;
+}
+
+.about-container {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-container,
+.about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.about-text p {
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white
+    ;border-radius: 2rem;
+    border-color: cyan;
+    text-align: center;
+    background-color:rgb(177, 228, 231) ;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section-pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+
+}
+
 /* nav .nav {
     list-style-type: none;
     font-size: 26px;
@@ -331,6 +428,56 @@ section {
         padding: 45px 0;
     }
 }
+
+@media screen and (max-width: 1400px){
+    .about-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    
+}
+
+#experience,
+.experience-details-container {
+    margin-top: 2rem;
+}
+
+#profile,
+.section-container {
+    display:block;
+}
+
+.arrow {
+    display: none;
+}
+
+.section,
+.section-container {
+height: fit-content;
+}
+
+section {
+    margin: 0 5%;
+}
+
+.section-pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+}
+
+.about-container {
+    margin-top: 0;
+}
+
+/* @media screen and (max-width: 600px){
+    .about-container,
+
+} */
+    
+
 
 
 
