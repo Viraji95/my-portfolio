@@ -404,6 +404,7 @@ section {
 #experience {
     position: relative;
     margin-top: 20vh;
+    height: 100vh;
 }
 
 .experience-sub-title {
