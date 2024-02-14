@@ -395,6 +395,7 @@ section {
 
 #experience {
     position: relative;
+    margin-top: 20vh;
 }
 
 .experience-sub-title {
@@ -429,6 +430,21 @@ article {
 
 article .icon {
     cursor: pointer;
+}
+
+#projects {
+    position: relative;
+}
+
+.color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(177, 228, 231);
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
 }
 
 
