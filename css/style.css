@@ -150,6 +150,8 @@ nav .nav li a:hover {
 
 .home-content h1 {
     color: rgb(17, 194, 207);
+    font-size: 3rem;
+    letter-spacing: 3px;
 }
 
 .home-content p {
