@@ -589,7 +589,31 @@ form textarea {
     0 0 100px cyan, 0 0 200px cyan ;
 }
 
+.last-text {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: rgb(7, 85, 91);
+    font-weight: 300;
+    margin-top: 70px;
+}
 
+.top {
+    position: fixed;
+    bottom: 2.1rem;
+    right: 2.1rem;
+
+}
+
+.top i {
+    color: #000000;
+    background: #0ef;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 0.5rem;
+    
+
+}
 
 
 
@@ -710,6 +734,36 @@ form textarea {
         position: relative;
         margin-top: 70vh;
     }
+
+    .contact {
+        display: block;
+    }
+
+    .contact-text h2 {
+        font-size: 50px;
+    }
+
+    .contact-text h4 {
+        font-size: 20px;
+    }
+
+    .contact-list p {
+        font-size: 17px;
+    }
+
+    .contact-list {
+        font-size: 20px;
+    }
+
+    .contact-list li {
+        font-size: 17px;
+    }
+
+    .contact-icons i {
+        width: 30px;
+        height: 30px;
+        align-items:center ;
+    }
 }
 
 
@@ -736,6 +790,21 @@ form textarea {
 
     section {
         margin: 0 5%;
+    }
+
+    .section-pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+
+    }
+
+    .about-container {
+        margin-top: 0;
+    }
+
+    .contact-text h2 {
+        font-size: 40px;
     }
 
 }
