@@ -621,6 +621,7 @@ form textarea {
     position: fixed;
     bottom: 2.1rem;
     right: 2.1rem;
+    margin-right: 3.5rem;
 
 }
 
@@ -649,6 +650,10 @@ form textarea {
 }
 
 @media screen and (max-width: 1400px){
+
+     #start {
+        width: 100vw;
+     }
     .about-container {
         flex-wrap: wrap;
     }
@@ -656,7 +661,7 @@ form textarea {
 }
 
 
-@media(max-width:930px){
+@media(max-width:992px){
     nav .New {
         display: initial;
     }
@@ -742,6 +747,9 @@ form textarea {
 }
 
 @media(max-width:768px) {
+    .New {
+        margin-top: 2rem;
+    }
     .container {
         flex-direction: column;
         padding-top:  2rem; 
@@ -875,6 +883,25 @@ form textarea {
 
     #contact {
         margin-top: 180vh;
+    }
+
+}
+
+@media screen and (max-width:320px){
+    .container .hero-pic {
+        width: 20rem;
+        height: 20rem;
+        margin-left: 1rem;
+    }
+
+    /* .home-content .home-sci i   {
+        font-size: 14px;
+    } */
+
+    .home-content .home-sci{
+        width:100vw;
+        gap: 0.5rem;
+        margin-right: 0;
     }
 
 }
