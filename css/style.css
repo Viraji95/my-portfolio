@@ -488,10 +488,17 @@ article .icon {
     margin-top: 130px;
 }
 
+.contact img {
+    height: 300px;
+    width: 300px;
+    opacity: 0.2;
+    border-radius: 50%;
+}
+
 .contact-text h2 {
     font-size: 90px;
     line-height: 1;
-    text-align: center;
+    text-align: left;
     color: #fff;
 }
 
@@ -517,6 +524,7 @@ article .icon {
 .contact-list {
     margin-bottom: 3rem;
     color: #fff;
+    /* margin-left: 20px; */
 }
 
 .contact-list li {
@@ -722,6 +730,8 @@ form textarea {
     #socials-container {
         width: 60%;
         gap: 2rem;
+        /* display: flex; */
+        /* flex-direction: column; */
     }
 
     .details-container {
@@ -816,6 +826,55 @@ form textarea {
 
     .contact-text h2 {
         font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+
+    #socials-container {
+        width: 60%;
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    #profile {
+        height: 100vh;
+    }
+    #about {
+        height: 100vh;
+        margin-top: 2vh;
+        margin-left: 15%;
+    }
+
+    #experience {
+        height: 100vh;
+        margin-top: 50vh;
+    }
+
+    .details-container {
+        
+        width: 270px;
+        /* height: 50px; */
+    }
+
+    .experience-details-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 100px;
+    }
+
+    #projects {
+        height: 100vh;
+        margin-top: 240vh;
+    }
+
+    #contact {
+        margin-top: 180vh;
     }
 
 }
