@@ -299,6 +299,7 @@ section {
 #about {
     position: relative;
 
+
 }
 
 .about-container {
@@ -657,7 +658,82 @@ form textarea {
     .about-container {
         flex-wrap: wrap;
     }
+
+    .section-p1,
+    .sub-title {
+        margin-left: 12%;
+    }
+
+    .section-pic-container {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin-right: 10%;
+    }
    
+}
+
+@media screen and (max-width: 1200px) {
+    #experience,
+    .experience-details-container {
+        margin-top: 2rem;
+    }
+
+    #profile,
+    .section-container {
+        display: block;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    section,
+    .section-container {
+        height: fit-content;
+    }
+
+    section {
+        margin: 0 5%;
+    }
+
+    .section-pic-container {
+        width: 100vw;
+        height: 275px;
+        margin: 0 auto 2rem;
+        /* margin-left: 5%; */
+
+    }
+
+   
+
+    .about-container {
+        margin-top: 0;
+    }
+
+    .contact-text h2 {
+        font-size: 40px;
+    }
+
+    .section-p1,
+    .sub-title {
+        margin-left: 0;
+    }
+
+    #about {
+        margin-top: 5vh;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    #socials-container {
+        width: 100vw;
+    }
+
+    .details-container {
+        width: 35vw;
+    }
+
 }
 
 
@@ -729,20 +805,39 @@ form textarea {
 
     #about {
         position: relative;
-        margin-top: 55vh;
+        margin-top: 5vh;
     }
 
     #socials-container {
-        width: 60%;
-        gap: 2rem;
-        /* display: flex; */
-        /* flex-direction: column; */
+        margin-left: 0;
+        /* width: 60%; */
+        /* gap: 2rem; */
+        align-items: center;
     }
 
     .details-container {
         width: 150px;
         margin-left: 45%;
         gap: 2rem;
+    }
+
+    /* .socials-container {
+        justify-content: center;
+        width: 100vw;
+        margin-right: 0;
+        margin-left: 30%;
+    } */
+    .details-container {
+        margin-left:0;
+    }
+
+    .about-container {
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .btn-box {
+        display: none;
     }
 }
 
@@ -761,7 +856,7 @@ form textarea {
 
     #about {
         position: relative;
-        margin-top: 70vh;
+        margin-top: 5vh;
     }
 
     .contact {
@@ -793,55 +888,50 @@ form textarea {
         height: 30px;
         align-items:center ;
     }
+
+    #socials-container {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .details-container {
+        width: 60%;
+    }
 }
 
 
 
-@media screen and (max-width: 1200px) {
-    #experience,
-    .experience-details-container {
-        margin-top: 2rem;
+
+@media screen and (max-width: 576px){
+    #about {
+        margin-top: 4vh;
     }
 
-    #profile,
-    .section-container {
-        display: block;
+    .socials-container {
+        justify-content: center;
+        width: 100vw;
+        margin-right: 0;
+        /* margin-left: 30%; */
+    }
+   
+    .about-container {
+        width: 100vw;
+        justify-content: center;
     }
 
-    .arrow {
+    .btn-box {
         display: none;
     }
-
-    section,
-    .section-container {
-        height: fit-content;
-    }
-
-    section {
-        margin: 0 5%;
-    }
-
-    .section-pic-container {
-        width: 275px;
-        height: 275px;
-        margin: 0 auto 2rem;
-
-    }
-
-    .about-container {
-        margin-top: 0;
-    }
-
-    .contact-text h2 {
-        font-size: 40px;
-    }
-
 }
+
+
+
 
 @media screen and (max-width: 540px) {
 
     #socials-container {
-        width: 60%;
+        /* width: 60%; */
         gap: 2rem;
         display: flex;
         flex-direction: column;
@@ -852,7 +942,7 @@ form textarea {
     #about {
         height: 100vh;
         margin-top: 2vh;
-        margin-left: 15%;
+        /* margin-left: 15%; */
     }
 
     #experience {
@@ -862,7 +952,7 @@ form textarea {
 
     .details-container {
         
-        width: 270px;
+        /* width: 270px; */
         /* height: 50px; */
     }
 
@@ -902,6 +992,14 @@ form textarea {
         width:100vw;
         gap: 0.5rem;
         margin-right: 0;
+    }
+
+    .details-container {
+        margin-left: 0;
+    }
+
+    #about {
+        margin-top: 2vh;
     }
 
 }
