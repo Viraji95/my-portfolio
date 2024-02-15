@@ -449,6 +449,7 @@ article .icon {
 }
 
 .color-container {
+    width: 100%;
     border-color: rgb(163, 163, 163);
     background:  rgb(7, 85, 91);
 }
@@ -868,11 +869,19 @@ form textarea {
         
     }
 
+    #projects .about-container {
+        width: 80%;
+    }
+
     #experience .experience-details-container {
         justify-content: center;
         align-items: center;
         margin-right: 0;
         margin-left: 10vw;
+    }
+
+    #contact {
+        margin-top: 60vh;
     }
 }
 
@@ -933,6 +942,14 @@ form textarea {
     .details-container {
         width: 60%;
     }
+
+    #projects {
+        margin-top: 90vh;
+    }
+
+    #contact {
+        margin-top: 190vh;
+    }
 }
 
 
@@ -957,6 +974,13 @@ form textarea {
 
     .btn-box {
         display: none;
+    }
+
+    #projects {
+        margin-top: 110vh;
+    }
+    #contact {
+        margin-top: 190vh;
     }
 }
 
@@ -1010,6 +1034,9 @@ form textarea {
         margin-top: 40vh;
     }
 
+    #projects {
+        margin-top: 120vh;
+    }
 }
 
 @media screen and (max-width:320px){
@@ -1041,8 +1068,27 @@ form textarea {
         margin-top: 60vh;
     }
 
+    #projects {
+        margin-top: 270vh;
+    }
+
+    #contact {
+        margin-top: 220vh;
+    }
+
 }
 
+@media only screen and (min-width: 321px) and (max-width: 509px) {
+    #projects {
+        margin-top: 260vh;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 859px) {
+    #projects {
+        margin-top: 260vh;
+    }
+}
 
 
 
